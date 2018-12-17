@@ -16,8 +16,7 @@
     "build": "webpack --config webpack-production.config.js --progress --colors && babel src --out-dir dist-modules --copy-files",
     "precommit": "./set_up_hooks.sh",
     "semantic-release": "semantic-release",
-    "commit": "git-cz",
-    "install": "npm run build"
+    "commit": "git-cz"
   },
   "keywords": [
     "react",
